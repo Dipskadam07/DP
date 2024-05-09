@@ -17,7 +17,7 @@ const Experience = () => {
             <div className='EducationBar'>
             <div className='EducationBarText'>
                 <h2>BE (2022)</h2>
-                <p>Bachelor of Engineering in Machanical- 72.30%</p>
+                <p>Bachelor of Engineering in Machanical- 71.80%</p>
             </div>
             </div>
 

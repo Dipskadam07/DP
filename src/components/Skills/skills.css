@@ -14,8 +14,8 @@
 .skillTitle{
     font-size: 3rem;
     font-weight: 600;
-    padding-top: 0rem;
-    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -28,7 +28,7 @@
 }
 
 .skillBars{
-    margin: 1.5rem;
+    margin: 1rem;
     width: 100vw;
     max-width: 80%;
     text-align: left;
@@ -36,8 +36,8 @@
 
 .skillBar{
     display: flex;
-    margin: 1rem;
-    padding: 1.5rem 4rem;
+    margin: 0.5rem;
+    padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     background: rgb(50,50,50);
 }
@@ -60,4 +60,20 @@
         font-size: 2vw;
     }
     
+}
+
+@media screen and (max-width:480px) {
+    .skillBarText>p {
+        font-size: 3vw;
+    }
+    .skillBarImg{
+        height: 2rem;
+        width: 2rem;
+    }
+    .skillBarText>h2{
+        font-size: 4vw;
+    }
+    .skillDesc{
+        font-size: 3vw;
+    }
 }

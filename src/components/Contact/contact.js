@@ -3,7 +3,6 @@ import './contact.css'
 import LinkdinIcon from '../../assets/linkedin.png'
 import NokariIcon from '../../assets/nokari.png'
 import GithubIcon from '../../assets/github.png'
-import SkypeIcon from '../../assets/skype.png'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -15,7 +14,7 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           e.target.reset();
-          alert('Email Sent');
+          alert('Email Sent!');
       }, (error) => {
           console.log(error.text);
       });
@@ -32,10 +31,16 @@ const Contact = () => {
             <textarea className='msg' name='message' rows='6' placeholder='Your message'></textarea>
             <button type='submit' value='Send' className='submitBtn'>Submit</button>
             <div className='links'>
+              <a href="https://www.linkedin.com/in/dipesh-kadam-389a59259/" target="_blank" rel="noopener noreferrer">
             <img src={LinkdinIcon} alt='Linkdin' className='link'/>
+            </a>
+            <a href="https://drive.google.com/file/d/1etuddfmKWV8OzEm8zhkyFKliNyZ8ZIHN/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
             <img src={NokariIcon} alt='Nokari' className='link'/>
+            </a>
+            <a href="https://github.com/Dipskadam07" target="_blank" rel="noopener noreferrer">
             <img src={GithubIcon} alt='Github' className='link'/>
-            <img src={SkypeIcon} alt='Skype' className='link'/>
+            </a>
+            
             </div>         
         </form>
 
@@ -43,5 +48,6 @@ const Contact = () => {
     </section>
   )
 }
+
 
 export default Contact

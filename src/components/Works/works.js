@@ -10,16 +10,20 @@ import Portfolio6 from '../../assets/portfolio-6.png'
 const Works = () => {
   return (
     <section id='works'>
-        <h2 className='worksTitle'>My Portfolio</h2>
-        <span className='worksDesc'>Passionate and detail-oriented programmer with a strong foundation in languages like Java, C, .Net. My skills extend to database administration, where I have hands-on with MySQL. I thrive in web development, crafting dynamic and responsive interfaces using HTML, CSS, and JavaScript. Also a good knowledge of ReactJS. Eager to contribute my enthusiasm and skills to innovative projects in the tech industry.</span>
+        <h2 className='worksTitle'>My Project</h2>
+        <span>Technology:- Java,Javascript, Spring boot, JPA, Thymeleaf, MySQL, HTML, CSS.</span>
+        <span className='worksDesc'> Our website is a comprehensive platform offering up-to-date event information across 
+categories like Conferences, Seminars, Webinars, and Recruitment. It's a hub for IT enthusiasts to explore 
+the latest advancements. Additionally, our Talent Booking section: Elevate your event with singers, dancers, 
+and more. Book exceptional performers to add a touch of magic to your function.</span>
 
         <div className='worksImgs'>
             <img src={Portfolio1} alt='' className='worksImg'/>
             <img src={Portfolio2} alt='' className='worksImg'/>
-            <img src={Portfolio3} alt='' className='worksImg'/>
-            <img src={Portfolio4} alt='' className='worksImg'/>
-            <img src={Portfolio5} alt='' className='worksImg'/>
-            <img src={Portfolio6} alt='' className='worksImg'/>
+            {/* <img src={Portfolio3} alt='' className='worksImg'/>
+            <img src={Portfolio4} alt='' className='worksImg'/> */}
+            {/* <img src={Portfolio5} alt='' className='worksImg'/>
+            <img src={Portfolio6} alt='' className='worksImg'/> */}
             
         </div>
         <button className='workBtn'>See More</button>

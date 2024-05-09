@@ -21,7 +21,8 @@
     padding: 1rem;
     font-size: medium;
     font-weight: 300;
-
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .contactForm{
@@ -67,4 +68,12 @@
     width: 3rem;
     margin: 0 0.75rem;
 
+}
+
+@media screen and (max-width:560px) {
+    .contactDesc{
+        font-size: 1rem;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
 }
